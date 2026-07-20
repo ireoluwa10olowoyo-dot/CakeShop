@@ -1,8 +1,31 @@
 import Dashboard from "/src/components/Dashboard"
 import NavBar from "/src/components/NavBar"
 import CakeCards from "/src/components/CakeCards"
+import {cakes} from "../data/cake"
+import useInfiniteScroll from "react-infinite-scroll-hook";
 
 function AllProducts(){
+
+    const [cakeList, setCakeList] = useState(cakes);
+    const [hasNextPage, setHasNextPage] = useState(true);
+    const [loading, setLoading] = useState(false);
+
+    const fetchMoreData = () =>{
+        setLoading(true);
+        setTimeout(() => {
+            setCakeList((prev) => [...prev, ...cakes.from({length:10})]);
+            setLoading(false);
+            if(cakeList.length >= 50) setHasNextPage(false);
+        },1000)
+    }
+
+    const [infinteRef] = useInifinteScroll({
+        loading,
+        hasNextPage,
+        onLoadMore:fetchMoreData,
+        dis
+    })
+
     return (
         <>
          <NavBar />
