@@ -7,7 +7,7 @@ function Blog(){
         <>
         <NavBar/>
         <Dashboard/>
-         <div class="relative z-10 -mt-150 ml-72 px-6 pb-10 bg-rose-50 w-252 h-160">
+         <div class="relative z-10 -mt-170 ml-72 px-6 pb-10 bg-rose-50 w-307 h-170">
         <h2 class=" text-center text-3xl font-bold  text-slate-800 sm:text-4xl pt-5"> Cake Shop Blogs</h2>
         <p class="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4"></p>
         

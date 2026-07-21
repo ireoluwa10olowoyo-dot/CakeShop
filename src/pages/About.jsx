@@ -6,7 +6,7 @@ function About(){
         <>
          <NavBar />
          <Dashboard />
-         <div className="-mt-150 ml-72 px-6 py-40 bg-rose-50 flex justify-content align-items w-253 h-155">
+         <div className="-mt-170 ml-72 px-6 py-40 bg-rose-50 flex justify-content align-items w-310 h-170 ">
             <div className="pr-16">
                 <img src="src/assets/AboutCake.webp" className="mix-blend-multiply rounded-full "/>
             </div>

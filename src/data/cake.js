@@ -1,6 +1,6 @@
 
 
-export const initialCakes = [
+export const cakes = [
 
 {
     title:"Red Velvet Cake",
@@ -115,7 +115,7 @@ export const initialCakes = [
     reviews:"40"
 },
 {
-     title:"Red Velvet Cake",
+    title:"Red Velvet Cake",
     description:"blood",
     image:"src/assets/RedVelvetCake.webp",
     price:"£14.00",

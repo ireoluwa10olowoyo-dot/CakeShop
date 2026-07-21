@@ -7,7 +7,7 @@ function Home(){
         <>
         <NavBar />
       <Dashboard />
-      <div className="relative z-10 -mt-150 ml-72 px-6 bg-rose-50 w-252.5 h-155">
+      <div className="relative z-10 -mt-170 ml-72 px-6 bg-rose-50 w-310 h-170 ">
         <h1 className="text-3xl text-slate-800 mb-6 pt-12 pl-12 font-medium">
           Celebration Cakes
         </h1>

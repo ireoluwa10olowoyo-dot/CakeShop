@@ -9,7 +9,7 @@ function Support(){
         <>
         <NavBar/>
         <Dashboard/>
-    <main class="container mx-auto px-4 py-12 z-10 -mt-150 ml-72 px-6 pb-10 bg-rose-50 w-252">
+    <main class="container mx-auto px-4 py-12 z-10 -mt-170 ml-72 px-6 pb-10 bg-rose-50 w-307">
     
     <div class="mb-8">
         <h1 class="text-center text-4xl font-bold  text-slate-800 pb-10">Support</h1>

@@ -3,6 +3,7 @@ import NavBar from "/src/components/NavBar"
 import CakeCards from "/src/components/CakeCards"
 import {cakes} from "../data/cake"
 import useInfiniteScroll from "react-infinite-scroll-hook";
+import React,{useState,useEffect, useContext, createContext} from 'react';
 
 function AllProducts(){
 
@@ -19,29 +20,34 @@ function AllProducts(){
         },1000)
     }
 
-    const [infinteRef] = useInifinteScroll({
+    const [infinteRef] = useInfiniteScroll({
         loading,
         hasNextPage,
         onLoadMore:fetchMoreData,
-        dis
-    })
+        disabled:false,
+        rootMargin: "0px 0px 200px 0px",
+    });
 
     return (
         <>
          <NavBar />
               <Dashboard />
-              <div className="relative z-10 -mt-150 ml-72 px-6 bg-rose-50 w-252.5 h-155">
-                <h1 className="text-3xl text-slate-800 mb-6 pt-12 pl-12 font-medium">
-                  Cake Shop Products
-                </h1>
-        
-                <div className="grid grid-cols-3 gap-8 pr-10 pt-5 pl-10 ">
-                  <CakeCards title="Red Velvet Cake" description="blood" image="src/assets/RedVelvetCake.webp" price="£25.99" theme="Birthday" reviews="200" />
-                  <CakeCards title="Red Velvet Cake" description="blood" image="src/assets/RedVelvetCake.webp" price="£25.99" theme="Birthday" reviews="200" />
-                  <CakeCards title="Red Velvet Cake" description="blood" image="src/assets/RedVelvetCake.webp" price="£25.99" theme="Birthday" reviews="200" />
-                </div>
-                </div>
+              <div className="relative z-10 -mt-170 ml-72 px-6 py-6 bg-rose-50 w-307">
+              <h1 className="text-center text-3xl font-bold  text-slate-800 sm:text-4xl pb-8">All Products</h1>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {cakes.map((cake) => (
+                    <CakeCards 
+                    title={cake.title}
+                    description={cake.description}
+                    image={cake.image}
+                    price={cake.price}
+                    theme={cake.theme}
+                    reviews={cake.reviews}
+                    />
+                ))}
 
+                </div>
+                </div>
         </>
     )
 }
