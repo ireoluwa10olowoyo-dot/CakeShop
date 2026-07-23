@@ -4,6 +4,7 @@ import CakeCards from "/src/components/CakeCards"
 import {cakes} from "../data/cake"
 import useInfiniteScroll from "react-infinite-scroll-hook";
 import React,{useState,useEffect, useContext, createContext} from 'react';
+import Footer from "/src/components/Footer"
 
 function AllProducts(){
 
@@ -48,6 +49,7 @@ function AllProducts(){
 
                 </div>
                 </div>
+                <Footer/>
         </>
     )
 }

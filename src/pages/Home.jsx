@@ -1,5 +1,6 @@
 import Dashboard from "/src/components/Dashboard"
-import NavBar from "/src/components/NavBar"
+import NavBar from "/src/components/NavBar";
+import Footer from "/src/components/Footer"
 import CakeCards from "/src/components/CakeCards"
 
 function Home(){
@@ -18,7 +19,7 @@ function Home(){
           <CakeCards title="Red Velvet Cake" description="blood" image="src/assets/RedVelvetCake.webp" price="£25.99" theme="Birthday" reviews="200" />
         </div>
         </div>
-    
+        <Footer/>
         </>
     )
 }

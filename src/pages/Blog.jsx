@@ -1,6 +1,7 @@
 import Dashboard from "/src/components/Dashboard"
 import NavBar from "/src/components/NavBar"
 import BlogCards from "/src/components/BlogCards"
+import Footer from "/src/components/Footer"
 
 function Blog(){
     return (
@@ -20,6 +21,7 @@ function Blog(){
             Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum." image="src/assets/RedVelvetCake.webp" profile="" author="Franz Ferdinand" date="Mar 16, 2020" minutes="15" theme="article" />
         </div>
         </div>
+        <Footer/>
         </>
     )
 }

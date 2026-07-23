@@ -1,5 +1,6 @@
 import Dashboard from "/src/components/Dashboard"
 import NavBar from "/src/components/NavBar"
+import Footer from "/src/components/Footer"
 
 function About(){
     return (
@@ -18,6 +19,7 @@ function About(){
                 voluptatum.</p>
             </div>
          </div>
+         <Footer/>
         </>
     )
 }

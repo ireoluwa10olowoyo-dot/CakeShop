@@ -1,7 +1,7 @@
 import Dashboard from "/src/components/Dashboard"
 import NavBar from "/src/components/NavBar"
 import CakeCards from "/src/components/CakeCards"
-
+import Footer from "/src/components/Footer"
 
 
 function Support(){
@@ -60,6 +60,9 @@ function Support(){
       </div>
     </section>
   </main>
+  <Footer/>
+  
+
         </>
     )
 }
