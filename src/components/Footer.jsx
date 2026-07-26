@@ -1,3 +1,5 @@
+import { Link, NavLink } from 'react-router-dom';
+
 
 function Footer(){
 return(
@@ -5,12 +7,11 @@ return(
     <footer class="flex flex-col space-y-10 justify-center m-10 ">
 
     <nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
-        <a class="hover:text-gray-900" href="#">Home</a>
-        <a class="hover:text-gray-900" href="#">About</a>
-        <a class="hover:text-gray-900" href="#">Services</a>
-        <a class="hover:text-gray-900" href="#">Media</a>
-        <a class="hover:text-gray-900" href="#">Gallery</a>
-        <a class="hover:text-gray-900" href="#">Contact</a>
+        <NavLink to="/Home" className="hover:text-gray-900">Home</NavLink>
+        <NavLink to="/AllProducts" className="hover:text-gray-900">All Products</NavLink>
+        <NavLink to="/About" className="hover:text-gray-900 ">About</NavLink>
+        <NavLink to="/Support" className="hover:text-gray-900">Support</NavLink>
+        <NavLink to="/Blog" className="hover:text-gray-900">Blog</NavLink>
     </nav>
 
     <div class="flex justify-center space-x-5">

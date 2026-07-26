@@ -5,7 +5,7 @@ function NavBar(){
 
 return(
     <>
-    <div className=" z-50 flex h-30 items-center bg-pink-100 gap-60 w-254.2">
+    <div className="fixed top-0 left-0 right-0 z-50 flex h-30 items-center bg-pink-100 gap-60 w-254.2">
         <div className="mr-0 flex justify-center items-center w-400 relative">
         <img src="src/assets/CakeLogo.webp" className="w-35 h-30 mix-blend-multiply"/><p className="ml-1 text-3xl text-sky-900 ">Cake Shop</p>
         </div>
