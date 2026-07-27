@@ -13,12 +13,9 @@ function Blog(){
         <p class="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4"></p>
         
         <div class="grid grid-cols-3 gap-4 ">
-            <BlogCards title="Best Cake" description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum." image="src/assets/RedVelvetCake.webp" profile="" author="Franz Ferdinand" date="Mar 16, 2020" minutes="15" theme="article" />
-            <BlogCards title="Best Cake" description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum." image="src/assets/RedVelvetCake.webp" profile="" author="Franz Ferdinand" date="Mar 16, 2020" minutes="15" theme="article" />
-            <BlogCards title="Best Cake" description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum." image="src/assets/RedVelvetCake.webp" profile="" author="Franz Ferdinand" date="Mar 16, 2020" minutes="15" theme="article" />
+            <BlogCards title="Best Cake" description="Our best-selling Red Velvet Cake features soft, moist layers with rich cream cheese frosting, making it the perfect treat for any celebration." image="src/assets/RedVelvetCake.webp" profile="" author="Franz Ferdinand" date="Mar 16, 2020" minutes="15" theme="article" />
+            <BlogCards title="Best Cake" description="Our best-selling Red Velvet Cake features soft, moist layers with rich cream cheese frosting, making it the perfect treat for any celebration." image="src/assets/RedVelvetCake.webp" profile="" author="Franz Ferdinand" date="Mar 16, 2020" minutes="15" theme="article" />
+            <BlogCards title="Best Cake" description="Our best-selling Red Velvet Cake features soft, moist layers with rich cream cheese frosting, making it the perfect treat for any celebration." image="src/assets/RedVelvetCake.webp" profile="" author="Franz Ferdinand" date="Mar 16, 2020" minutes="15" theme="article" />
         </div>
         </div>
         <Footer/>

@@ -8,6 +8,7 @@ import Blog from './pages/Blog';
 import AllProducts from './pages/AllProducts';
 import Support from './pages/Support';
 import About from './pages/About';
+import CakeProductPage from './pages/CakeProductPage';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Route path="/AllProducts" element={<AllProducts/>}/>
       <Route path="/Blog" element={<Blog/>}/>
       <Route path="/Support" element={<Support/>}/>
+      <Route path="/CakeProductPage" element={<CakeProductPage/>}/>
 
     </Routes>
     </BrowserRouter>

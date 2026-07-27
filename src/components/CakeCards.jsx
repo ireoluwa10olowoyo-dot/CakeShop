@@ -1,4 +1,6 @@
 
+import { Link, NavLink } from 'react-router-dom';
+
 
 function CakeCards({title,description,image,price,theme,reviews}){
 
@@ -19,7 +21,8 @@ return(
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-4 translate-y-10 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
                         <button class="w-full bg-pink-500 text-white py-2 rounded-lg font-medium hover:bg-pink-700 transition-colors duration-300 flex items-center justify-center cursor-pointer focus:bg-pink-700 gap-2">
-                            <i class="fas fa-shopping-cart"></i> Purchase
+                            <NavLink to="/CakeProductPage"><i class="fas fa-shopping-cart"></i> Purchase</NavLink>
+                            
                         </button>
                     </div>
                     <span class="absolute top-4 left-4 bg-pink-400 text-white text-xs font-bold px-2 py-1 rounded-full animate-pulse-slow">{theme}</span>
