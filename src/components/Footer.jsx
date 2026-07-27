@@ -14,7 +14,7 @@ return(
         <NavLink to="/Blog" className="hover:text-gray-900">Blog</NavLink>
     </nav>
 
-    <div class="flex justify-center space-x-5">
+    <div class="flex justify-left space-x-5">
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
             <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
         </a>

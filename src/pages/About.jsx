@@ -13,8 +13,8 @@ function About(){
             </div>
             <div className="text-slate-800 h-100">
                 <span className="text-5xl border-b-2 border-pink-600 uppercase mb-100 font-bold">About Us</span>
-                <h1 className="text-3xl pt-5">About Our Cake Shop</h1>
-                <p className="text-lg pt-2">At Cake Shop, we're passionate about creating freshly baked cakes and desserts that make every celebration unforgettable. From classic favourites to custom creations, every treat is made with care and the finest ingredients.</p>
+                <h1 className="text-3xl pt-5">About Delicake</h1>
+                <p className="text-lg pt-2">At Delicake, we're passionate about creating freshly baked cakes and desserts that make every celebration unforgettable. From classic favourites to custom creations, every treat is made with care and the finest ingredients.</p>
             </div>
          </div>
          <Footer/>
