@@ -24,7 +24,7 @@ function App() {
       <Route path="/AllProducts" element={<AllProducts/>}/>
       <Route path="/Blog" element={<Blog/>}/>
       <Route path="/Support" element={<Support/>}/>
-      <Route path="/CakeProductPage" element={<CakeProductPage/>}/>
+      <Route path="/cake/:id" element={<CakeProductPage/>}/>
 
     </Routes>
     </BrowserRouter>

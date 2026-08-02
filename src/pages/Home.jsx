@@ -2,6 +2,7 @@ import Dashboard from "/src/components/Dashboard"
 import NavBar from "/src/components/NavBar";
 import Footer from "/src/components/Footer"
 import CakeCards from "/src/components/CakeCards"
+import {cakeHome} from "../data/cake"
 
 function Home(){
     return (
@@ -14,9 +15,9 @@ function Home(){
         </h1>
 
         <div className="grid grid-cols-3 gap-8 pr-10 pt-5 pl-10 ">
-          <CakeCards title="Red Velvet Cake" description="Our signature Red Velvet Cake features soft, moist layers of rich cocoa-infused sponge, perfectly paired with smooth, creamy cream cheese frosting. Finished with delicate red velvet crumbs, it's a timeless favourite that's perfect for birthdays, celebrations, or simply treating yourself." image="src/assets/RedVelvetCake.webp" price="£25.99" theme="Birthday" reviews="200" />
-          <CakeCards title="Red Velvet Cake" description="Our signature Red Velvet Cake features soft, moist layers of rich cocoa-infused sponge, perfectly paired with smooth, creamy cream cheese frosting. Finished with delicate red velvet crumbs, it's a timeless favourite that's perfect for birthdays, celebrations, or simply treating yourself." image="src/assets/RedVelvetCake.webp" price="£25.99" theme="Birthday" reviews="200" />
-          <CakeCards title="Red Velvet Cake" description="Our signature Red Velvet Cake features soft, moist layers of rich cocoa-infused sponge, perfectly paired with smooth, creamy cream cheese frosting. Finished with delicate red velvet crumbs, it's a timeless favourite that's perfect for birthdays, celebrations, or simply treating yourself." image="src/assets/RedVelvetCake.webp" price="£25.99" theme="Birthday" reviews="200" />
+          {cakeHome.map((cake)=>(
+            <CakeCards key={cake.id} {...cake}/>
+          ))}
         </div>
         </div>
         <Footer/>
