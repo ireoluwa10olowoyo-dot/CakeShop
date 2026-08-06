@@ -4,7 +4,7 @@ export const cakes = [
     title: "Red Velvet Cake",
     description:
       "Soft red velvet sponge paired with smooth cream cheese frosting and finished with red velvet crumbs.",
-    image: "/src/assets/RedVelvetCake.webp",
+    image: "/src/assets/Cake Images/RedVelvetCake.webp",
     price: "£14.00",
     theme: "Birthday",
     reviews: 40,
@@ -16,7 +16,7 @@ export const cakes = [
     title: "Chocolate Cake",
     description:
       "Rich chocolate sponge layered with smooth chocolate buttercream and finished with chocolate decorations.",
-    image: "/src/assets/ChocolateCake.webp",
+    image: "/src/assets/Cake Images/ChocolateCake.webp",
     price: "£16.00",
     theme: "Celebration",
     reviews: 52,
@@ -28,7 +28,7 @@ export const cakes = [
     title: "Vanilla Cake",
     description:
       "Light vanilla sponge filled with smooth vanilla buttercream, perfect for birthdays and celebrations.",
-    image: "/src/assets/VanillaCake.webp",
+    image: "/src/assets/Cake Images/VanillaCake.webp",
     price: "£13.00",
     theme: "Birthday",
     reviews: 35,
@@ -40,7 +40,7 @@ export const cakes = [
     title: "Strawberry Cake",
     description:
       "Soft strawberry sponge layered with strawberry buttercream and decorated with fresh strawberries.",
-    image: "/src/assets/StrawberryCake.webp",
+    image: "/src/assets/Cake Images/StrawberryCake.webp",
     price: "£15.00",
     theme: "Summer",
     reviews: 31,
@@ -52,7 +52,7 @@ export const cakes = [
     title: "Lemon Cake",
     description:
       "Fresh lemon sponge layered with smooth lemon buttercream for a light and refreshing flavour.",
-    image: "/src/assets/LemonCake.webp",
+    image: "/src/assets/Cake Images/LemonCake.webp",
     price: "£13.50",
     theme: "Summer",
     reviews: 27,
@@ -64,7 +64,7 @@ export const cakes = [
     title: "Carrot Cake",
     description:
       "A moist spiced carrot sponge with smooth cream cheese frosting and a delicate walnut topping.",
-    image: "/src/assets/CarrotCake.webp",
+    image: "/src/assets/Cake Images/CarrotCake.webp",
     price: "£14.50",
     theme: "Classic",
     reviews: 46,
@@ -76,7 +76,7 @@ export const cakes = [
     title: "Black Forest Cake",
     description:
       "Chocolate sponge layered with cherry filling and fresh cream, finished with chocolate shavings.",
-    image: "/src/assets/BlackForestCake.webp",
+    image: "/src/assets/Cake Images/BlackForestCake.webp",
     price: "£18.00",
     theme: "Luxury",
     reviews: 38,
@@ -88,7 +88,7 @@ export const cakes = [
     title: "Victoria Sponge Cake",
     description:
       "A traditional vanilla sponge filled with strawberry jam and smooth vanilla buttercream.",
-    image: "/src/assets/VictoriaSpongeCake.webp",
+    image: "/src/assets/Cake Images/VictoriaSpongeCake.webp",
     price: "£12.00",
     theme: "Classic",
     reviews: 61,
@@ -100,7 +100,7 @@ export const cakes = [
     title: "Coffee Cake",
     description:
       "A rich coffee-flavoured sponge layered with smooth coffee buttercream and finished with walnuts.",
-    image: "/src/assets/CoffeeCake.webp",
+    image: "/src/assets/Cake Images/CoffeeCake.webp",
     price: "£15.50",
     theme: "Classic",
     reviews: 29,
@@ -112,7 +112,7 @@ export const cakes = [
     title: "Biscoff Cake",
     description:
       "A soft caramel sponge layered with Biscoff buttercream and topped with Biscoff biscuit crumbs.",
-    image: "/src/assets/BiscoffCake.webp",
+    image: "/src/assets/Cake Images/BiscoffCake.webp",
     price: "£17.00",
     theme: "Popular",
     reviews: 73,
@@ -124,7 +124,7 @@ export const cakes = [
     title: "Cookies and Cream Cake",
     description:
       "Chocolate sponge filled with cookies-and-cream frosting and decorated with crushed cookies.",
-    image: "/src/assets/CookiesAndCreamCake.webp",
+    image: "/src/assets/Cake ImagesCookies&CreamCake.webp",
     price: "£17.50",
     theme: "Popular",
     reviews: 58,
@@ -136,7 +136,7 @@ export const cakes = [
     title: "Salted Caramel Cake",
     description:
       "Soft vanilla sponge layered with salted caramel buttercream and finished with caramel drizzle.",
-    image: "/src/assets/SaltedCaramelCake.webp",
+    image: "/src/assets/Cake Images/SaltedCaramelCake.webp",
     price: "£16.50",
     theme: "Luxury",
     reviews: 49,

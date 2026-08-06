@@ -38,12 +38,8 @@ function AllProducts(){
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {cakes.map((cake) => (
                     <CakeCards 
-                    title={cake.title}
-                    description={cake.description}
-                    image={cake.image}
-                    price={cake.price}
-                    theme={cake.theme}
-                    reviews={cake.reviews}
+                    key={cake.id}
+                    {...cake}
                     />
                 ))}
 
