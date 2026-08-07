@@ -9,6 +9,7 @@ import AllProducts from './pages/AllProducts';
 import Support from './pages/Support';
 import About from './pages/About';
 import CakeProductPage from './pages/CakeProductPage';
+import BlogPage from './pages/BlogPage';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
       <Route path="/Blog" element={<Blog/>}/>
       <Route path="/Support" element={<Support/>}/>
       <Route path="/cake/:id" element={<CakeProductPage/>}/>
-
+      <Route path="/BlogPage/:id" element={<BlogPage/>}/>
     </Routes>
     </BrowserRouter>
       

@@ -1,9 +1,10 @@
+import { Link, NavLink } from 'react-router-dom';
 
-
-function BlogCards({title,description,image, profile,author,date,minutes, theme}){
+function BlogCards({id,title,description,image, profile,author,date,minutes, theme}){
 
     return(
         <>
+        <NavLink to={`/BlogPage/${id}`}>
         <div class="mx-auto mt-12 grid gap-5 w-75 ">
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
             <div class="flex-shrink-0">
@@ -40,6 +41,7 @@ function BlogCards({title,description,image, profile,author,date,minutes, theme}
             </div>
         </div>
       </div>
+      </NavLink>
         </>
     )
     

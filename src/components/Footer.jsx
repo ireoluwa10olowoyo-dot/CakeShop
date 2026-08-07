@@ -36,7 +36,7 @@ return(
         <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
             
         </div>
-        <div class=" relative z-10 my-5">© Copyright 2020. All Rights Reserved.</div>
+        <div class=" relative z-10 my-5">© Copyright 2026. All Rights Reserved.</div>
     </div>
 </div>
 

@@ -124,7 +124,7 @@ export const cakes = [
     title: "Cookies and Cream Cake",
     description:
       "Chocolate sponge filled with cookies-and-cream frosting and decorated with crushed cookies.",
-    image: "/src/assets/Cake ImagesCookies&CreamCake.webp",
+    image: "/src/assets/Cake Images/Cookies&CreamCake.webp",
     price: "£17.50",
     theme: "Popular",
     reviews: 58,
